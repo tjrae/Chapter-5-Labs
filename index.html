@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Groove &amp; Grain - Vintage Records</title>
+   <link href="styles.css" rel="stylesheet">
+   <script defer src="filter.js"></script>
+</head>
+<body>
+   <!-- Header -->
+   <header class="header" role="banner">
+      <div class="container nav">
+         <div class="brand">
+            <span class="brand-logo" aria-hidden="true"></span>
+            <span>Groove & Grain</span>
+         </div>
+         <nav class="nav-links" aria-label="Site">
+            <a href="#shop">Shop</a>
+            <a href="#about">About</a>
+            <a href="#shipping">Shipping</a>
+            <a href="#faq">FAQ</a>
+            <a href="#contact">Contact</a>
+         </nav>
+         <div class="nav-cta">
+            <a href="#contact">Sell Your Vinyl</a>
+         </div>
+      </div>
+   </header>
+
+   <!-- Hero -->
+   <section class="hero container">
+      <div>
+         <h1 class="title">Curated Vintage Records — Playlisted for Life</h1>
+         <p class="lead">Discover pristine first pressings, audiophile reissues, and rare finds across rock,
+            jazz, soul &amp; blues. Graded, cleaned, and shipped safely in archival sleeves.</p>
+         <div class="links">
+            <a href="#shop">Shop Featured Vinyl</a>
+            <a href="#faq">Learn About Grading</a>
+         </div>
+      </div>
+
+      <div class="hero-visual" role="img" aria-label="RECORDS neon sign">
+         <span class="label">Free inner sleeve with every purchase</span>
+      </div>
+   </section>
+
+   <!-- Shop -->
+   <main id="shop" class="container section" aria-labelledby="shop-heading">
+      <h2 id="shop-heading">Featured Vinyl</h2>
+      <p class="muted">All records are visually graded, cleaned with an anti-static brush, and shipped in
+         mailers rated for corner protection.</p>
+
+      <!-- JavaScript controls displaying and hiding checked filters -->
+      <div class="filters" aria-label="Category filters">
+         <span class="label">Filter:</span>
+         <label class="filter-pill">
+			   <input class="filter-input" type="checkbox" id="show-all" checked>
+			   <span>All</span>
+		   </label>
+         <label class="filter-pill">
+            <input class="filter-input" type="checkbox" id="rock" checked>
+            <span>Rock</span>
+         </label>
+         <label class="filter-pill">
+            <input class="filter-input" type="checkbox" id="jazz" checked>
+            <span>Jazz</span>
+         </label>
+         <label class="filter-pill">
+            <input class="filter-input" type="checkbox" id="soul" checked>
+            <span>Soul</span>
+         </label>
+         <label class="filter-pill">
+            <input class="filter-input" type="checkbox" id="blues" checked>
+            <span>Blues</span>
+         </label>
+      </div>
+
+      <div class="grid">
+         <article class="card product tag-rock">
+            <img class="thumb" src="images/mic2.jpg" alt="Abbey Road album cover">
+            <h3 class="title">The Beatles — Abbey Road (1969)</h3>
+            <p class="meta">Apple • UK 1st Press • VG+/EX • Matrix YEX 749-2</p>
+            <div class="price-row">
+               <span class="price">$89</span>
+               <span class="status">In stock</span>
+            </div>
+            <button class="btn btn--brand">Buy</button>
+         </article>
+         <article class="card product tag-rock">
+            <img class="thumb" src="images/turn_table.jpg" alt="Pink Floyd album cover">
+            <h3 class="title">Pink Floyd — Dark Side of the Moon</h3>
+            <p class="meta">Harvest • 1973 • VG+/VG • Posters & Stickers included</p>
+            <div class="price-row">
+               <span class="price">$75</span>
+               <span class="status">In stock</span>
+            </div>
+            <button class="btn btn--brand">Buy</button>
+            </a>
+         </article>
+         <article class="card product tag-jazz">
+            <img class="thumb" src="images/record_stack.jpg" alt="Miles Davis album cover">
+            <h3 class="title">Miles Davis — Kind of Blue</h3>
+            <p class="meta">Columbia 6-eye • 1959 • VG/VG+ • Mono</p>
+            <div class="price-row">
+               <span class="price">$120</span>
+               <span class="status">In stock</span>
+            </div>
+            <button class="btn btn--brand">Buy</button>
+         </article>
+         <article class="card product tag-jazz">
+            <img class="thumb" src="images/guitar.jpg" alt="John Coltrane album cover">
+            <h3 class="title">John Coltrane — Blue Train</h3>
+            <p class="meta">Blue Note • RVG • VG+/EX • 47 West 63rd</p>
+            <div class="price-row">
+               <span class="price">$140</span>
+               <span class="status">In stock</span>
+            </div>
+            <button class="btn btn--brand">Buy</button>
+         </article>
+         <article class=" card product tag-soul">
+            <img class="thumb" src="images/mic.jpg" alt="Marvin Gaye album cover">
+            <h3 class="title">Marvin Gaye — What's Going On</h3>
+            <p class="meta">Tamla • 1971 • EX/EX • Gatefold</p>
+            <div class="price-row">
+               <span class="price">$95</span>
+               <span class="status">In stock</span>
+            </div>
+            <button class="btn btn--brand">Buy</button>
+         </article>
+         <article class="card product tag-blues">
+            <img class="thumb" src="images/empty_room.jpg" alt="B.B. King album cover">
+            <h3 class="title">B.B. King — Live at the Regal</h3>
+            <p class="meta">ABC-Paramount • 1965 • VG+/VG+</p>
+            <div class="price-row">
+               <span class="price">$70</span>
+               <span class="status">In stock</span>
+            </div>
+            <button class="btn btn--brand">Buy</button>
+         </article>
+         <article class="card product tag-rock">
+            <img class="thumb" src="images/boombox.jpg" alt="Led Zeppelin album cover">
+            <h3 class="title">Led Zeppelin — IV</h3>
+            <p class="meta">Atlantic • 1971 • VG+/VG • Pecko Duck</p>
+            <div class="price-row">
+               <span class="price">$68</span>
+               <span class="soldout">Sold out</span>
+            </div>
+            <button class="btn btn--brand">Inquire</button>
+         </article>
+      </div>
+
+      <p class="muted">Looking for a specific pressing? <a href="#contact">Send a request</a> and we'll hunt
+         it down.</p>
+   </main>
+
+   <!-- Reviews, About, Shipping, FAQ, Contact, Footer -->
+   <section class="container section" aria-labelledby="reviews-heading">
+      <h2 id="reviews-heading">Customer Reviews</h2>
+      <div class="reviews">
+         <blockquote class="card review">
+            <div class="stars" aria-label="5 stars">★★★★★</div>
+            <p>Records arrived minty fresh with the safest packaging I've ever seen. Grading was spot on.</p>
+            <footer class="muted">— Alex R.</footer>
+         </blockquote>
+         <blockquote class="card review">
+            <div class="stars" aria-label="5 stars">★★★★★</div>
+            <p>Finally found my favorite Blue Note pressing! Fast shipping and great communication.</p>
+            <footer class="muted">— Priya K.</footer>
+         </blockquote>
+         <blockquote class="card review">
+            <div class="stars" aria-label="5 stars">★★★★★</div>
+            <p>Beautiful copy, plays quietly with great dynamics. Will definitely buy again!</p>
+            <footer class="muted">— Marco L.</footer>
+         </blockquote>
+      </div>
+   </section>
+
+   <section id="about" class="container section">
+      <h2 id="about-heading">About Groove &amp; Grain</h2>
+      <p class="muted">We specialize in curated vintage vinyl: every record is inspected, cleaned, and
+         play-graded when needed. We use Goldmine standards for grading and ship with corner protection,
+         poly sleeves, and moisture barriers.</p>
+   </section>
+
+   <section id="shipping" class="container section">
+      <h2 id="shipping-heading">Shipping &amp; Returns</h2>
+      <ul>
+         <li>Flat-rate domestic shipping: <strong>$6</strong> (free over $100)</li>
+         <li>International available—rates at checkout upon request</li>
+         <li>Returns within 14 days for grading discrepancies; buyer pays return shipping</li>
+         <li>Orders ship in 1-2 business days with tracking</li>
+      </ul>
+   </section>
+
+   <section id="faq" class="container section">
+      <h2 id="faq-heading">FAQ</h2>
+      <details class="card faq">
+         <summary><strong>How do you grade records?</strong></summary>
+         <p>We follow Goldmine standards (M, NM, EX, VG+, VG, G). Jackets and vinyl are graded separately.
+            We note matrix/runout and pressing details when relevant.</p>
+      </details>
+      <details class="card faq">
+         <summary><strong>Do you clean records?</strong></summary>
+         <p>Yes—dry brushed and spot cleaned. Audiophile ultrasonic cleaning is available on request.</p>
+      </details>
+      <details class="card faq">
+         <summary><strong>Can I request a specific pressing?</strong></summary>
+         <p>Absolutely! Send us your wishlist via the contact form below, and we'll source it.</p>
+      </details>
+   </section>
+
+   <section id="contact" class="container section">
+      <h2 id="contact-heading">Contact &amp; Special Orders</h2>
+      <p class="muted">Ready to buy or sell your vinyl? Use the form—no payment is processed here. We'll
+         reply with an invoice and secure checkout link.</p>
+
+      <form>
+         <p class="sr-only" id="contact-help">All fields marked * are required.</p>
+         <label>
+           <span>Name *</span>
+           <input type="text" name="name" required>
+         </label>
+         <label>
+           <span>Email *</span>
+           <input type="email" name="email" required>
+         </label>
+         <label>
+            <span>Order/Request Details *</span>
+            <textarea name="message" required
+             placeholder="e.g., Buy 'Kind of Blue' or request 'Blue Note 1500 series' titles"></textarea>
+         </label>
+         <label>
+            <span>Preferred Genre</span>
+            <select name="genre">
+               <option value="">Select...</option>
+               <option>Rock</option>
+               <option>Jazz</option>
+               <option>Soul</option>
+               <option>Blues</option>
+               <option>Other</option>
+            </select>
+         </label>
+         <button class="btn btn--brand">Send Request</button>
+      </form>
+   </section>
+
+   <footer role="contentinfo">
+      <div class="container foot-grid">
+         <div>
+            <div class="brand" aria-label="Brand">
+               <span class="brand-logo" aria-hidden="true"></span>
+               <span>Groove &amp; Grain</span>
+            </div>
+            <p class="muted">Vintage records, graded with care. © <span id="year">2025</span> Groove &amp; 
+               Grain.</p>
+         </div>
+         <div>
+            <h3>Links</h3>
+            <ul>
+               <li><a href="#shop">Shop</a></li>
+               <li><a href="#shipping">Shipping</a></li>
+               <li><a href="#faq">FAQ</a></li>
+               <li><a href="#contact">Contact</a></li>
+            </ul>
+         </div>
+         <div>
+            <h3>Follow</h3>
+            <div class="socials">
+               <a href="">#Instagram</a>
+               <a href="">#Facebook</a>
+               <a href="">#YouTube</a>
+            </div>
+         </div>
+      </div>
+   </footer>
+</body>
+</html>
